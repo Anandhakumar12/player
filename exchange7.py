@@ -1,9 +1,9 @@
-av="abcd"
+av=str(input())
 h=[]
 g=[]
 gh=[]
 hg=[]
-jkh=""
+
 for i in av:
   if av.index(i)%2==0:
     h.append(i)
