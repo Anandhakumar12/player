@@ -1,7 +1,6 @@
 a=str,input()
-li1=["Sunday","Saturday"]
-li2=["Monday","Tuesday","Wednesday","Thrusday","Friday"]
-if a in li1:
+l=["Sunday","Saturday"]
+if a not in l:
     print("no")
 else:
     print("yes")
