@@ -11,4 +11,4 @@ for x in dic1 :
         foo = dic1[x]
         key = x
 print(key)
-print(dic1)
+
