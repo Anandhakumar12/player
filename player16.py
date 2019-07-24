@@ -5,10 +5,10 @@ for c1 in s :
         dic1[c1] += 1
     else :
         dic1[c1] = 1
-print(dic1)
-foo = 1
+
+fool = 1
 for x in dic1 :
-    if dic1[x] == foo :
+    if dic1[x] == fool :
         foo = dic1[x]
-        key = x
-print(key)
+        keys = x
+print(keys)
