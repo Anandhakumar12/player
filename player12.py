@@ -7,6 +7,6 @@ l23=l1[m+1:]
 
 pr=(l23+l2)
 for i in pr:
-    lo=lo+str(i)
+    lo=lo+str(i)+" "
     
 print(lo)
