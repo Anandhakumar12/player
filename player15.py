@@ -7,7 +7,7 @@ for c1 in s :
         dic1[c1] = 1
 foo = 0
 for x in dic1 :
-    if dic1[x] > f :
+    if dic1[x] > foo :
         foo = dic1[x]
         key = x
 print(key)
