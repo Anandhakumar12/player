@@ -5,7 +5,7 @@ pp=""
 for i in a:
     ad.remove(i)
     if i not in ad:
-        pp+=i
+        pp+=i+" "
     ad.append(i)
         
 
