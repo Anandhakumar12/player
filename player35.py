@@ -1,3 +1,4 @@
+import re
 a=str(input())
 ad=list(a)
 
@@ -9,5 +10,7 @@ for i in a:
     ad.append(i)
         
 
-print(pp)
+we=re.sub(' +',' ',pp)
+print(we)
         
+
