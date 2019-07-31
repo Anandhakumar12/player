@@ -1,7 +1,7 @@
-a=str(input())
-b=int(input())
-if b%len(a)==0:
+a,b=map(str,input().split())
+bd=int(b)
+if bd%len(a)==0:
   print(a)
-elif b%len(a)!=0:
-  bc=b%len(a)
+elif bd%len(a)!=0:
+  bc=bd%len(a)
   print(a[-bc:]+a[:-bc])
