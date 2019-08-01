@@ -1,5 +1,5 @@
-a,b=map(str,input().split())
-if a==b:
+ad,bd=map(str,input().split())
+if ad==bd:
     print("yes")
 else:
     print("no")
